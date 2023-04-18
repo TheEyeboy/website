@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Multipage education website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+
+    <!----Swiper JS----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.2/swiper-bundle.css">
+
+
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="edu.html"><h4>My Coding School</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="courses.html">Courses</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fas fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fas fa-times"></i></button>
+        </div>
+    </nav>
+<!------------------------------end of navbar ------------>
+
+
+
+
+
+
+
+
+
+<section class="contact">
+    <div class="container contact__container">
+        <aside class="contact__aside">
+            <div class="aside__image">
+                <img src="C:\New folder\images\ct.png">
+            </div>
+            <h2>Contact Us</h2>
+            <p>
+                If you need to contact My Coding School, there are several ways to get in touch with us through our website.
+                You can visit the "Contact Us" page on our website and fill out the contact form with your name, email address, and message. Our team will receive your message and get back to you as soon as possible.
+                So, please do not hesitate to reach out to us if you have any questions, comments, or feedback. We are always here to help and look forward to hearing from you.
+            </p>
+            <ul class="contact__details">
+                <li><i class="fas fa-phone  times"></i>
+                <h5>+234-9055-9573-45</h5></li>
+                <li><i class="fas fa-envelope"></i>
+                <h5>mycodingschool@help.com</h5></li>
+                <li><i class="fas fa-location"></i>
+                <h5>Abuja, Nigeria</h5></li>
+            </ul>
+            <ul class="contact__socials">
+                <li><a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://facebook.com"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://facebook.com"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://facebook.com"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </aside>
+
+        <form action="https://formspree.io/f/mzbqybpw" method="POST" class="contact__form">
+            <div class="form__name">
+                <input type="text" name="First Name" placeholder="First Name" required>
+                <input type="text" name="Last Name" placeholder="Last Name" required>
+            </div>
+            <input type="email" name="Email Address" placeholder="Your Email Address" required>
+            <textarea name="Message" rows="7" placeholder="Type in your message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <div class="container footer__container">
+        <div class="footer__1">
+            <a href="edu.html" class="footer__logo"><h4>My Coding School</h4></a>
+            <p>
+                Another compensation and benefit that this company has, is yearly trip for personnel to another country for recreation.
+                 Secondly, they have comprehensive plan to increase engagement and satisfaction of employees.
+            </p>
+        </div>
+        <div class="footer__2">
+            <h4>ZeldaLink</h4>
+            <ul class="zeldalink">
+                <li><a href="edu.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="courses.html">Courses</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer__3">
+            <h4>Privacy</h4>
+            <ul class="privacy">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Refund Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__3">
+            <h4>Contact Us</h4>
+            <div>
+                <p>+234-9055-9573-45</p>
+                <p>godsown7@gmail.com</p>
+            </div>
+
+            <ul class="footer__socials">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+
+        
+    </div>
+    <div class="footer__copyright">
+        <small>Copyright &copy ; My Coding School Youtube Tutorials</small>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.2/swiper-bundle.min.js"></script>
+<script src="./main.js"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+        //When window width >= 600px
+        breakpoints: {
+            600:{
+                slidesPerView: 2
+            }
+        }
+    });
+</script>
+</body>
+</html>

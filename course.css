@@ -1,0 +1,134 @@
+.courses {
+    margin-top: 1rem;
+}
+
+.container__course__couses-explained {
+    margin: 1rem 0 3rem;
+}
+
+.container__course__couses-explained h4 {
+    text-align: center;
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.container__course__couses-explained p {
+    text-align: center;
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.container__course__couses-explained ul a {
+    display: 2rem;
+    background: greenyellow;
+    position: 4rem 0;
+    margin-top: 0.5rem;
+    padding: 19px;
+    width: 25%;
+    border-radius: 3rem;
+    transition: var(--transition);
+}
+
+
+.container__course__couses-explained ul a:hover {
+    box-shadow: 0 1.4rem 1.4rem rgba(0,0,0,0.3);
+}
+
+.container__coursea__explained h4{
+    text-align: center;
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.container__coursea__explained p {
+    text-align: center;
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+
+
+.container__coursea__explained ul a {
+    display: 2rem;
+    background: greenyellow;
+    position: 4rem 0;
+    margin-top: 0.5rem;
+    padding: 19px;
+    width: 25%;
+    border-radius: 3rem;
+    transition: var(--transition);
+}
+
+.container__coursea__explained ul a:hover {
+    box-shadow: 0 1.4rem 1.4rem rgba(0,0,0,0.3);
+}
+
+.container__course3__explained h4{
+    text-align: center;
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.container__course3__explained p {
+    text-align: center;
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+
+
+.container__course3__explained ul a {
+    display: 2rem;
+    background: greenyellow;
+    position: 4rem 0;
+    margin-top: 0.5rem;
+    padding: 19px;
+    width: 25%;
+    border-radius: 3rem;
+    transition: var(--transition);
+}
+
+.container__course3__explained ul a:hover {
+    box-shadow: 0 1.4rem 1.4rem rgba(0,0,0,0.3);
+}
+
+.container__course4__explained h4{
+    text-align: center;
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.container__course4__explained p {
+    text-align: center;
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+
+
+.container__course4__explained ul a {
+    display: 2rem;
+    background: greenyellow;
+    position: 4rem 0;
+    margin-top: 0.5rem;
+    padding: 19px;
+    width: 25%;
+    border-radius: 3rem;
+    transition: var(--transition);
+}
+
+.container__course4__explained ul a:hover {
+    box-shadow: 0 1.4rem 1.4rem rgba(0,0,0,0.3);
+}
+
+
+
+
